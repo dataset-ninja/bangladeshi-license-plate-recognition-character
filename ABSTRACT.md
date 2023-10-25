@@ -4,7 +4,7 @@ Authors introduce the **Bangladeshi License Plate Recognition: Character Recogni
 
 The Bangladeshi License Plate Recognition: License Plate Localization dataset is a part of **Automatic License Plate Recognition System For Bangladeshi Vehicles Using Deep Neural Network** work, which includes two datasets:
 
-- Bangladeshi License Plate Recognition: License Plate Localization [(available on DatasetNinja)](https://datasetninja.com/bangladeshi-license-plate-recognition-character)
+- Bangladeshi License Plate Recognition: License Plate Localization [(available on DatasetNinja)](https://datasetninja.com/bangladeshi-license-plate-recognition-localization)
 - Bangladeshi License Plate Recognition: Character Recognition (current)
 
 The authors highlight that an ALPRS (Automatic License Plate Recognition System) faces three main challenges as a whole. These are properly detecting a vehicle’s license plate, segmenting the texts in the license plate, andrecognizing the texts or characters or digits. Apart from these three challenges, another important challenge is to generate properly formatted output which is ready to use. Фгерщкы focuses on various ways of overcoming these challenges with the help of Deep Neural Networks and presents the most feasible solution for a complete ALPR system. Experimenting with different DNN models, authors have come up with the most effcient & robust solution in every stage. Authors have merged the segmentation phase with the recognition phase to make this process easy. By doing such, authors can save a lot of time and computational effort. Finally, authors have presented their custom algorithm, which is computationally effcient and generates a properly formatted output for their system.
