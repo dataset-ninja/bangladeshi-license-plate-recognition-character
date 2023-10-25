@@ -1,6 +1,6 @@
 Dataset **BLPR: Character Recognition** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/8/B/Ew/HbllFT2SBdE5732WbVDdOSYmhokiIbXnVF6clRJm01NSFc32DfYvD0w8Gsketi2VZAc76ZysLMNT1wEHkR4jcqQfiqix8U0BbIqHBLq4wephEePGMwqsuWvgotAu.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
