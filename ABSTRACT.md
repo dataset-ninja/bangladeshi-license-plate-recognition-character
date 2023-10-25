@@ -1,5 +1,18 @@
+Authors introduce the **Bangladeshi License Plate Recognition: Character Recognition** dataset, which serves as a valuable resource for object detection within the surveillance industry. This dataset comprises 4,061 images, encompassing 35,705 labeled objects distributed across 27 distinct classes such as *metro*, *dhaka*, and numerical digits, including *1*, *2*, *3*, *4*, *5*, *6*, *7*, *8*, *9*, as well as various characters and city names like *khulna*, *ba*, *ja*, *chattogram* and more. The dataset is partitioned into three subsets: *train* (3,480 images), *validation* (363 images), and *test* (218 images), making it a comprehensive tool for character recognition and license plate analysis in the Bangladeshi context.
 
-Sample image template:
-<img src="https://github.com/dataset-ninja/gland-segmentation/assets/78355358/f158d0dd-71d5-41a2-aba5-4a5f57d54c35" alt="image" width="800">
+## About Automatic License Plate Recognition System For Bangladeshi Vehicles Using Deep Neural Network
 
-<span style="font-size: smaller; font-style: italic;">Image description.</span>
+The Bangladeshi License Plate Recognition: License Plate Localization dataset is a part of **Automatic License Plate Recognition System For Bangladeshi Vehicles Using Deep Neural Network** work, which includes two datasets:
+
+- Bangladeshi License Plate Recognition: License Plate Localization [(available on DatasetNinja)](https://datasetninja.com/bangladeshi-license-plate-recognition-character)
+- Bangladeshi License Plate Recognition: Character Recognition (current)
+
+The authors highlight that an ALPRS (Automatic License Plate Recognition System) faces three main challenges as a whole. These are properly detecting a vehicle’s license plate, segmenting the texts in the license plate, andrecognizing the texts or characters or digits. Apart from these three challenges, another important challenge is to generate properly formatted output which is ready to use. Фгерщкы focuses on various ways of overcoming these challenges with the help of Deep Neural Networks and presents the most feasible solution for a complete ALPR system. Experimenting with different DNN models, authors have come up with the most effcient & robust solution in every stage. Authors have merged the segmentation phase with the recognition phase to make this process easy. By doing such, authors can save a lot of time and computational effort. Finally, authors have presented their custom algorithm, which is computationally effcient and generates a properly formatted output for their system.
+
+<img src="https://i.ibb.co/ZMPKRDm/Screenshot-2023-10-25-132816.png" alt="image" width="800">
+
+<span style="font-size: smaller; font-style: italic;">Workﬂow diagram of the proposed system.</span>
+
+## About Datasets:
+
+One of the main contributions of authors' work is the rich datasets for both localization and recognition of the Bangladeshi license plate. Authors' ﬁrst dataset (BLPR: License Plate Localization) contains almost 2800 images for localization. The second dataset (BLPR: Character Recognition) contains around 4000 license plate images cropped from the first dataset which are the most so far in this sector. Authors have split their datasets into 70:15:15 and 85:10:5 for training, validation, and testing purpose in license plate localization and text recognition stage respectively. Authors' datasets contain images from different cities of Bangladesh: Dhaka, Khulna, Chattogram, Jashore including different vehicle categories license plates from both private and trading vehicles. Our datasets are diverse enough and cover almost every possible condition, angle, and environment. To create this datasets more diverse authors have gathered images from different sources. From [Nooruddin et al.](https://www.researchgate.net/publication/350689395_A_Bangladeshi_License_Plate_Detection_System_Based_on_Extracted_Color_Features) authors are given their dataset of only trading vehicles. Most of the private vehicle images are used from paper Rahman et al., and the rest of them are collected by authors.
