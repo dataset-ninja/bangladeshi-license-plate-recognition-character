@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "BLPR: Character Recognition"
+PROJECT_NAME: str = "Bangladeshi License Plate Recognition: Character Recognition"
 PROJECT_NAME_FULL: str = "Bangladeshi License Plate Recognition: Character Recognition"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
@@ -43,7 +43,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/bangladeshi-license-plate-re
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = ["https://www.kaggle.com/datasets/syednahinhossain/bangladeshi-license-plate-recognition-dataset/"]
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://www.kaggle.com/datasets/syednahinhossain/bangladeshi-license-plate-recognition-dataset/"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
@@ -56,7 +56,7 @@ BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = "https://link.springer.com/chapter/10.1007/978-981-16-6636-0_8"
-AUTHORS: Optional[List[str]] = ["Syed Nahin Hossain" , "Md.Zahim Hassan", "Md.Masum Al Masba"]
+AUTHORS: Optional[List[str]] = ["Syed Nahin Hossain", "Md.Zahim Hassan", "Md.Masum Al Masba"]
 AUTHORS_CONTACTS: Optional[List[str]] = ["syednahinhossain@gmail.com", "zahim951xtgmovi@gmail.com", "masumalmasba@gmail.com"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Khulna University of Engineering & Technology, Bangladesh"]
