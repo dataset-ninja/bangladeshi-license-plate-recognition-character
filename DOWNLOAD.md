@@ -1,6 +1,6 @@
 Dataset **Bangladeshi License Plate Recognition: Character Recognition** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/N/k/pX/SKNVqwKJQxO3QAqXhAuAMjAx0DB5WWPyM7iQTBmaky8NyzJ6WsdvaIbpqH0KV0yxR7iptQsBQOOSP4JouwHvUweVbMJkx6K7a663cQDHicFnrpxkMpmqKYTB2b5C.tar)
+ [Download](https://www.dropbox.com/scl/fi/hf0fuzfu6pkttrrp77p18/bangladeshi-license-plate-recognition-character-recognition-DatasetNinja.tar?rlkey=fyatpamrucj1e4zc3buqfyed6&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
